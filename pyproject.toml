@@ -1,0 +1,13 @@
+[project]
+name = "dcm-user-guide"
+version = "0.1.0"
+description = "DCM User Guide"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.0",
+    "mkdocs-glightbox>=0.5.2",
+    "mkdocs-material>=9.7.0",
+    "pymdown-extensions>=10.17.1",
+]

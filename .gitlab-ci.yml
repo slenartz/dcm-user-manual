@@ -1,0 +1,38 @@
+image: "ghcr.io/astral-sh/uv:python3.12-alpine"
+
+variables:
+  UV_CACHE_DIR: ".uv-cache"
+
+cache:
+  key: "uv-cache"
+  paths:
+    - .uv-cache/
+  policy: pull-push
+
+before_script:
+  - apk add git
+  - uv sync
+
+test:
+  stage: test
+  script:
+    - echo "Building the website (test build)..."
+    - uv run mkdocs build --strict --verbose --site-dir test
+    - echo "Test build completed."
+  artifacts:
+    paths:
+      - test
+  rules:
+    - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+
+pages:
+  stage: deploy
+  script:
+    - echo "Building the website (production)..."
+    - uv run mkdocs build --strict --verbose --site-dir public
+    - echo "Production build completed."
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH

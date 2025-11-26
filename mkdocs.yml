@@ -1,0 +1,50 @@
+site_name: "DCM User Guide"
+site_author: "Stephan Lenartz, Jan-Erik Stange"
+
+site_dir: public
+docs_dir: docs
+
+extra:
+  version: "0.1.0"
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: de
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Zu Dunkelmodus wechseln
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Zu Hellmodus wechseln
+
+nav:
+  - Startseite: index.md
+  - Einleitung: einleitung.md
+  - Grundlagen: grundlagen.md
+  - Anwendungsverwaltung: anwendungsverwaltung.md
+  - Datenverarbeitung & Jobs: datenverarbeitung-und-jobs.md
+  - Glossar: glossar.md
+
+plugins:
+  - search
+  - glightbox
+  - git-revision-date-localized:
+      type: iso_date
+      timezone: Europe/Berlin
+      locale: de
+      fallback_to_build_date: true
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
