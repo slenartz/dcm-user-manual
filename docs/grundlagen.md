@@ -23,6 +23,12 @@ Administrator:innen verwalten Arbeitsbereiche, Nutzer, Rollen und Templates.
 **Datenkurator**<br>
 Datenkurator:innen arbeiten in Arbeitsbereichen, konfigurieren Jobs auf Basis von Templates und überwachen deren Ausführungen, Statusmeldungen sowie die verarbeiteten Intellectual Entities (IEs).
 
+<br>
+<figure markdown="span">
+  ![](assets/images/diagrams/dcm-concept.png){ width="500" }
+  <figcaption>Anwendungsstruktur und Rollen im DCM</figcaption>
+</figure>
+
 ## Informationsmodell
 
 Der DCM arbeitet mit *Information Packages* (IPs). Ein IP ist ein sich selbst beschreibender, konsistenter Container für alle Daten (Payload und Metadaten) einer Intellectual Entity. Es basiert auf dem BagIt-Standard.
