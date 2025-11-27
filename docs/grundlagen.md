@@ -13,17 +13,15 @@ Templates werden von Administrator:innen erstellt. Sie enthalten die zentralen E
 **Job**<br>
 Jobs sind von Datenkurator:innen auf Basis eines Templates angelegte Konfigurationen, die beliebig oft ausgeführt werden können. Sie legen die für den jeweiligen Verarbeitungsvorgang notwendigen Einstellungen fest – etwa zur Datenauswahl, zu Metadaten-Mappings oder zu einem Zeitplan für wiederkehrende Läufe. Jobs bündeln die zugehörigen Archivierungsprozesse und erleichtern deren Statusnachverfolgung und Verwaltung.
 
-## Rollen- und Berechtingungskonzept
+## Rollen und Berechtigungen
 
-Im DCM gibt es zwei Rollen, die verschiedene Aufgaben abdecken:
+Im DCM gibt es zwei Rollen, die unterschiedliche Verantwortungsbereiche abdecken.
 
-- **Administrator**  
-    Verwaltet Arbeitsbereiche, Nutzer, Rollen und Templates.
+ **Administrator**<br>
+Administrator:innen verwalten Arbeitsbereiche, Nutzer, Rollen und Templates.
 
-- **Datenkurator**  
-    Verantwortlich für das Anlegen, Konfigurieren und Ausführen von Jobs in Arbeitsbereichen. 
-  
-Diese Dokumentation führt beide Rollen durch die wichtigsten Funktionalitäten des DCM und bietet einen strukturierten Überblick über alle Schritte, die für einen reibungslosen Pre-Ingest-Prozess notwendig sind.
+**Datenkurator**<br>
+Datenkurator:innen arbeiten in Arbeitsbereichen, konfigurieren Jobs auf Basis von Templates und überwachen deren Ausführungen, Statusmeldungen sowie die verarbeiteten Intellectual Entities (IEs).
 
 ## Informationsmodell
 
