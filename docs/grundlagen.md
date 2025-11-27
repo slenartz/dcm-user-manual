@@ -1,15 +1,17 @@
 # Grundlagen
 
-## Arbeitsbereiche, Templates, Jobs – das Grundkonzept 
+## Arbeitsbereiche, Templates und Jobs
 
-Das grundlegende Anwendungskonzept besteht aus drei Elementen:
+Der DCM strukturiert die Arbeitsabläufe in drei zentrale Bausteine.
 
-- **Arbeitsbereich**  
-    Ein Arbeitsbereich fasst zusammengehörige Projekte, Datenquellen oder organisatorische Einheiten einer Institution zusammen und legt fest, welche Nutzer:innen auf die darin enthaltenen Templates und Jobs zugreifen dürfen.
-- **Template**  
-    Templates legen fest, welche Art von Job in einem Arbeitsbereich erstellt werden kann (z.B. OAI-PMH-Harvesting oder die Verarbeitung extern erstellter Information Packages in einem Hotfolder). Sie definieren die zentralen Parameter für die Anbindung der jeweiligen Quellsysteme und nehmen Datenkuratoren die Eingabe von technischen Konfigurationsparametern ab.
-- **Job**  
-    Ein Job ist eine konkrete Ausführung auf Basis eines Templates. Er umfasst die vom Datenkurator:in erfassten zusätzlichen Konfigurationen zur Datenauswahl, zu Metadaten-Mappings sowie optional einen Zeitplan für wiederkehrende Ausführungen. Alle Ausführungen eines Jobs werden protokolliert; Ergebnisse der Verarbeitung einzelner Intellectual Entities lassen sich jederzeit über die entsprechenden Job-Detail-Seiten einsehen.
+**Arbeitsbereich**<br>
+Arbeitsbereiche bündeln zusammengehörige Projekte oder Datenquellen und sorgen für eine klare organisatorische Struktur. Administrator:innen verwalten die Arbeitsbereiche und legen fest, welche Templates und Nutzer:innen ihnen zugeordnet sind. Für Datenkurator:innen ergibt sich daraus, welche Möglichkeiten sie im jeweiligen Bereich zum Anlegen und Bearbeiten von Jobs haben.
+
+**Template**<br>
+Templates werden von Administrator:innen erstellt. Sie enthalten die zentralen Einstellungen für die jeweilige Datenquelle und stellen sicher, dass technische Parameter bereits vorkonfiguriert sind. Für Datenkurator:innen bedeutet das, dass sie Jobs auf Grundlage einheitlicher und geprüfter Einstellungen anlegen können, ohne selbst technische Details anpassen zu müssen.
+
+**Job**<br>
+Jobs sind von Datenkurator:innen auf Basis eines Templates angelegte Konfigurationen, die beliebig oft ausgeführt werden können. Sie legen die für den jeweiligen Verarbeitungsvorgang notwendigen Einstellungen fest – etwa zur Datenauswahl, zu Metadaten-Mappings oder zu einem Zeitplan für wiederkehrende Läufe. Jobs bündeln die zugehörigen Archivierungsprozesse und erleichtern deren Statusnachverfolgung und Verwaltung.
 
 ## Rollen- und Berechtingungskonzept
 
