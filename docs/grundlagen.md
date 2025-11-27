@@ -29,21 +29,25 @@ Datenkurator:innen arbeiten in Arbeitsbereichen, konfigurieren Jobs auf Basis vo
   <figcaption>Anwendungsstruktur und Rollen im DCM</figcaption>
 </figure>
 
-## Informationsmodell
+## Informationspakete
 
-Der DCM arbeitet mit *Information Packages* (IPs). Ein IP ist ein sich selbst beschreibender, konsistenter Container für alle Daten (Payload und Metadaten) einer Intellectual Entity. Es basiert auf dem BagIt-Standard.
+Der DCM arbeitet mit **Information Packages (IPs)**. Ein IP ist ein in sich konsistenter Container, der sowohl die Nutzdaten (Payload) als auch die zugehörigen Metadaten einer [Intellectual Entity](glossar.md#intellectual-entity-ie) umfasst. Es basiert auf dem [BagIt](glossar.md#bagit)-Standard, beschreibt sich vollständig selbst und kann als Pre-Ingest [Submission Information Package](glossar.md#submission-information-package-sip) verstanden werden.
 
-Link zur aktuellen LZV.nrw Information Package Spezifikation: [https://github.com/lzv-nrw/spec-information-package](https://github.com/lzv-nrw/spec-information-package)
+Information Packages bilden das zentrale interne Verarbeitungsformat des DCM: Alle Verarbeitungsschritte operieren auf diesen IPs. Da IPs jedoch auch außerhalb des DCM erzeugt werden können, unterscheidet das System zwei Szenarien.
 
-Es gibt zwei Wege, wie Information Packages vom DCM importiert werden:
+**Vom DCM erstellte Information Packages**<br>
+Beim Import über [OAI-PMH](glossar.md#oai-pmh) erstellt der DCM die Information Packages automatisch. Diese IPs werden im Hintergrund verarbeitet und erscheinen im regulären Arbeitsablauf nicht. Erst im Fehlerfall kann es sinnvoll sein, ein solches IP herunterzuladen, um den Inhalt für die Analyse einzusehen.
 
-- **Extern erstellte IPs (Hotfolder-Jobs)**  
-Externe Systeme oder Workflows können IPs selbst erzeugen und über einen überwachten Hotfolder in den DCM einliefern. Diese IPs müssen der öffentlich dokumentierten IP-Spezifikation entsprechen, damit sie vom System validiert und weiterverarbeitet werdenx.
+**Extern erstellte Information Packages**<br>
+Information Packages können auch in vorgelagerten Systemen oder Workflows entstehen und über einen überwachten [Hotfolder](glossar.md#hotfolder) an den DCM übergeben werden. Damit diese IPs validiert und weiterverarbeitet werden können, müssen sie einer kompatiblen IP-Spezifikation entsprechen.
 
-- **Vom DCM erzeugte IPs (OAI-PMH-Jobs)**  
-Alternativ werden IPs vom DCM selbst generiert, wenn Daten über OAI-PMH-Jobs importiert werden.
+!!! info "Information Packages: Spezifikationen und Kompatibilität"
+     Extern erstellte Information Packages werden vom DCM auf Kompatibilität geprüft und validiert. Das jeweils verwendete Profil wird im Metadatum 'BagIt-Profile-Identifier' angegeben. Die aktuelle LZV.nrw IP-Spezifikation finden Sie hier: [https://github.com/lzv-nrw/spec-information-package](https://github.com/lzv-nrw/spec-information-package).
 
-!!! info
-     Extern erstellte Information Packages werden anhand der in der Anwendung hinterlegten Profile auf Konformität geprüft. Das jeweils verwendete Profil wird im Metadatum BagIt-Profile-Identifier angegeben. Es ist auch möglich, eigene Profile zu verwenden, ohne sie im DCM zu hinterlegen – vorausgesetzt, sie sind vollständig kompatibel mit den Anforderungen des DCM. Eine Prüfung erfolgt bei der Verarbeitung des entsprechenden Information Packages.
+     Es ist auch möglich, eigene Profile zu verwenden – vorausgesetzt, sie sind vollständig kompatibel mit den Anforderungen des DCM. Eine Prüfung erfolgt bei der Verarbeitung des jeweiligen IPs.
 
-Unabhängig vom Ursprung gelten für alle Information Packages dieselben Regeln und Formatvorgaben. Dies stellt sicher, dass die angebundenen Microservices – etwa für Objekt-Validierung, Metadatenmapping oder SIP-Generierung – zuverlässig und reproduzierbar arbeiten können. Durch das einheitliche Format sind sowohl externe Zulieferungen als auch intern erzeugte Information Packages voll kompatibel.
+Unabhängig davon, ob ein Information Package intern oder extern erzeugt wurde, wird es nach identischen Kriterien geprüft und verarbeitet.
+
+Ob der DCM ein Information Package selbst erzeugt oder ein extern erstelltes IP übernimmt, wird in der jeweiligen Template-Konfiguration festgelegt. OAI-PMH-Jobs importieren zunächst nur Daten und Metadaten und erzeugen daraus automatisch ein IP. Hotfolder-Jobs dagegen verarbeiten gelieferte IPs, die von externen Systemen bereitgestellt werden.
+
+Für Datenkurator:innen unterscheiden sich beide Jobtypen nur in wenigen Details – die zentralen Konfigurationsschritte und der praktische Umgang mit den Jobs sind gleich.
