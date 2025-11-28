@@ -25,6 +25,9 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Zu Hellmodus wechseln
 
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Startseite: index.md
   - Einleitung: einleitung.md
