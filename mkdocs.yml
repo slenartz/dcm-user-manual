@@ -45,6 +45,8 @@ plugins:
 markdown_extensions:
   - admonition
   - footnotes
+  - attr_list
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.details
