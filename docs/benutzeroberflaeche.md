@@ -12,7 +12,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 !!! tip "Aktivieren des DCM Nutzerkontos"
     <div class="grid cards" markdown>
 
-    - ![](../assets/images/screenshots/basics/account-activation.png){ .image-frame }
+    - ![](assets/images/screenshots/basics/account-activation.png){ .image-frame }
 
     Sie erhalten einen personifizierten Link zur Aktivierung Ihres DCM Nutzerkontos. Bei Aufruf des Links werden Sie dazu aufgefordert, Ihr persönliches Passwort zu vergeben und Ihr Nutzerkonto zu aktivieren. Das Passwort kann später von Ihnen geändert werden.
     
@@ -27,7 +27,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](../assets/images/screenshots/basics/login.png){ .image-frame }
+    ![](assets/images/screenshots/basics/login.png){ .image-frame }
 
     Beim Aufruf der DCM URL melden Sie sich zunächst mit Ihrem persönlichen Account durch Eingabe von Nutzername und Passwort an.
 
@@ -35,7 +35,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](../assets/images/screenshots/basics/home-curator.png){ .image-frame }
+    ![](assets/images/screenshots/basics/home-curator.png){ .image-frame }
 
     Nach dem Login gelangen Sie als Datenkurator:in auf die Startseite. Über die Naviagtionsleiste oben haben Sie Zugriff "Übersicht“ und „Jobs“.
 
@@ -43,7 +43,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](../assets/images/screenshots/basics/avatar.png){ .image-frame }
+    ![](assets/images/screenshots/basics/avatar.png){ .image-frame }
 
     Bei Klick auf das Avatar-Symbol können Sie Ihr Passwort ändern oder sich vom DCM abmelden. Beim nächsten Besuch der URL werden Sie erneut zum Login aufgefordert.
 
@@ -51,9 +51,8 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](../assets/images/screenshots/basics/overview.png){ .image-frame }
+    ![](assets/images/screenshots/basics/overview.png){ .image-frame }
 
     Hier entsteht zukünftig ein Dashboard, das Widgets wie Job-Status oder Benachrichtigungen anzeigen wird. Bis zur Umsetzung bleibt die Seite leer.
 
 </div>
-
