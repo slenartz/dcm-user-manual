@@ -6,7 +6,7 @@
   </div>
   {% if page and page.meta.git_revision_date_localized %}
     <div class="md-copyright" style="margin-top: 0.25em;">
-      Version v{{ config.extra.version }} – Stand: {{ page.meta.git_revision_date_localized }}
+      Version {{ config.extra.version }} – Stand: {{ page.meta.git_revision_date_localized }}
     </div>
   {% endif %}
 {% else %}
@@ -17,7 +17,7 @@
   </div>
   {% if page and page.meta.git_revision_date_localized %}
     <div class="md-copyright" style="margin-top: 0.25em;">
-      Version v{{ config.extra.version }} – {{ page.meta.git_revision_date_localized }}
+      Version {{ config.extra.version }} – {{ page.meta.git_revision_date_localized }}
     </div>
   {% endif %}
 {% endif %}
