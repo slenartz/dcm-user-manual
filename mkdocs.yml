@@ -60,7 +60,7 @@ plugins:
       type: iso_date
       timezone: Europe/Berlin
       locale: de
-      fallback_to_build_date: true
+      fallback_to_build_date: false
 
 markdown_extensions:
   - admonition
