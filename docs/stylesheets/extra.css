@@ -1,5 +1,9 @@
 .image-frame {
     border: 1px solid #ccc;
-    padding: 4px;
-    border-radius: 4px;
+    padding: 0px;
+    border-radius: 2px;
+}
+
+[data-md-color-scheme="slate"] .image-frame {
+  border-color: hwb(0 100% 0% / 0);
 }
