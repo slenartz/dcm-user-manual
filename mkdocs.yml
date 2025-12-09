@@ -39,7 +39,23 @@ nav:
 
 plugins:
   - search
-  - glightbox
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: fade
+      width: 100%
+      height: auto
+      zoomable: false
+      draggable: false
+      skip_classes:
+        - no-glightbox
+      auto_themed: false
+      auto_caption: true
+      caption_position: bottom
+      background: white
+      shadow: true
+      manual: false
   - git-revision-date-localized:
       type: iso_date
       timezone: Europe/Berlin
