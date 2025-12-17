@@ -4,7 +4,7 @@ Die Benutzeroberfläche des Digital Curation Managers (DCM) ist bewusst klar und
 
 Nach dem Login über Ihren Browser gelangen alle Nutzer:innen zunächst auf eine gemeinsame Startseite. Die anschließende Navigation unterscheidet sich je nach Rolle:
 
-Datenkurator:innen haben direkten Zugriff auf ihre Jobs, während Administrator:innen zusätzliche Bereiche für die Verwaltung von Nutzern, Arbeitsbereichen und Templates sehen.
+Datenkurator:innen haben Zugriff auf die von ihnen verwalteten Jobs, während Administrator:innen Seiten für die Verwaltung von Nutzern, Arbeitsbereichen und Templates nutzen.
 
 Unabhängig von Ihrer Rolle ist der grundlegende Aufbau der Oberfläche identisch:
 Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptbereichen. Rechts oben befindet sich das Profilmenü, über das die Funktionen zum Ändern des Passworts sowie der Logout erreichbar sind.
@@ -25,9 +25,9 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![Nach dem Login gelangen Sie als Datenkurator:in auf die Startseite. Über die Naviagtionsleiste oben haben Sie Zugriff "Übersicht“ und „Jobs“.](assets/images/screenshots/basics/home-curator.png){ .image-frame }
+    ![Nach dem Login gelangen Sie auf die Startseite. Als Datenkurator:in haben Sie über die Naviagtionsleiste oben Zugriff "Übersicht“ und „Jobs“.](assets/images/screenshots/basics/home-curator.png){ .image-frame }
 
-    Nach dem Login gelangen Sie als Datenkurator:in auf die Startseite. Über die Naviagtionsleiste oben haben Sie Zugriff "Übersicht“ und „Jobs“.
+    Nach dem Login gelangen Sie auf die Startseite. Als Datenkurator:in haben Sie über die Naviagtionsleiste oben Zugriff *Übersicht* und *Jobs*.
 
 -   **Avatar-Menü**
 
