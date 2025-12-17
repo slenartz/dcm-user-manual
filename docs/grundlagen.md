@@ -1,5 +1,15 @@
 # Grundlagen
 
+Der Digital Curation Manager (DCM) ist eine webbasierte Anwendung, mit der Datenkurator:innen digitale Objekte aus Quellsystemen auswählen, aufbereiten und in ein Langzeitarchivsystem[^1] überführen können.
+
+Die Anwendung fungiert im Kern als Submission-Application und verknüpft mehrere Teilprozesse zu einem automatisierten Verarbeitungsworkflow. Dabei unterstützt der DCM sowohl Datenabfragen über Schnittstellen und automatische Dateidownloads als auch die Verarbeitung extern kuratierter und bereitgestellter Information Packages.
+
+![](assets/images/diagrams/dcm-process.png)
+
+Der DCM schafft transparente und konsistente Abläufe. Die integrierte Weboberfläche führt alle Konfigurations- und Statusinformationen zentral zusammen und erleichtert die Orientierung im gesamten Workflow.
+
+[^1]: Derzeit wird ExLibris Rosetta unterstüzt; weitere Systeme sind geplant.
+
 ## Arbeitsbereiche, Templates und Jobs
 
 Der DCM strukturiert die Arbeitsabläufe in drei zentrale Bausteine.

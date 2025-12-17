@@ -30,7 +30,6 @@ extra_css:
 
 nav:
   - Startseite: index.md
-  - Einleitung: einleitung.md
   - Grundlagen: grundlagen.md
   - Benutzeroberfläche: benutzeroberflaeche.md
   - Anwendungsverwaltung: anwendungsverwaltung.md
