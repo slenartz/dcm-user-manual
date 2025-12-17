@@ -41,7 +41,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](assets/images/screenshots/basics/overview.png){ .image-frame }
+    ![](assets/images/screenshots/basics/uebersicht.png){ .image-frame }
 
     Hier entsteht zukünftig ein Dashboard, das Widgets wie Job-Status oder Benachrichtigungen anzeigen wird. Bis zur Umsetzung bleibt die Seite leer.
 

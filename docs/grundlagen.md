@@ -67,7 +67,7 @@ Für Datenkurator:innen unterscheiden sich beide Jobtypen nur in wenigen Details
 !!! tip "Aktivierung des DCM Nutzerkontos"
     <div class="grid cards" markdown>
 
-    - ![](assets/images/screenshots/basics/account-activation.png){ .image-frame }
+    - ![](assets/images/screenshots/basics/account-aktivierung.png){ .image-frame }
 
     Datenkurator:innen erhalten einen personifizierten Link zur Aktivierung ihres DCM Nutzerkontos. Bei Aufruf des Links werden sie dazu aufgefordert, ein persönliches Passwort zu vergeben und das Nutzerkonto zu aktivieren. Das Passwort kann später bei Bedarf geändert werden.
     
