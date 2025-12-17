@@ -8,6 +8,6 @@ Die folgenden Kapitel führen Sie durch die zentralen Konzepte, sowie durch die 
 - [Grundlagen](grundlagen.md) – Das Anwendungskonzept verstehen
 - [Benutzeroberfläche](benutzeroberflaeche.md) – Grundelemente der Oberfläche erkunden
 - [Anwendungsverwaltung](anwendungsverwaltung.md) – Nutzer:innen, Arbeitsbereiche und Templates verwalten
-- [Jobs anlegen](jobs-anlegen.md) – Jobs anlegen
+- [Jobs konfigurieren](jobs-konfigurieren.md) – Jobs konfigurieren
 - [Jobs managen und überwachen](jobs-managen-und-ueberwachen.md) – Jobs managen und überwachen
 - [Glossar](glossar.md) – Wichtige Begriffe nachschlagen
