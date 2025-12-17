@@ -1,4 +1,4 @@
-# Anwendungsverwaltung
+# Anwendung administrieren
 
 Die Anwendungsverwaltung umfasst alle administrativen Funktionen des DCM. Administrator:innen legen hier Nutzerkonten an, verwalten Rollen und steuern über Arbeitsbereiche und Templates, welche Optionen Datenkurator:innen zum Anlegen und Ausführen von Jobs bereitstehen.
 
