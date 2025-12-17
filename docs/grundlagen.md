@@ -61,3 +61,14 @@ Unabhängig davon, ob ein Information Package intern oder extern erzeugt wurde, 
 Ob der DCM ein Information Package selbst erzeugt oder ein extern erstelltes IP übernimmt, wird in der jeweiligen Template-Konfiguration festgelegt. OAI-PMH-Jobs importieren zunächst nur Daten und Metadaten und erzeugen daraus automatisch ein IP. Hotfolder-Jobs dagegen verarbeiten gelieferte IPs, die von externen Systemen bereitgestellt werden.
 
 Für Datenkurator:innen unterscheiden sich beide Jobtypen nur in wenigen Details – die zentralen Konfigurationsschritte und der praktische Umgang mit den Jobs sind gleich.
+
+## DCM Nutzerkonto
+
+!!! tip "Aktivierung des DCM Nutzerkontos"
+    <div class="grid cards" markdown>
+
+    - ![](assets/images/screenshots/basics/account-activation.png){ .image-frame }
+
+    Datenkurator:innen erhalten einen personifizierten Link zur Aktivierung ihres DCM Nutzerkontos. Bei Aufruf des Links werden sie dazu aufgefordert, ein persönliches Passwort zu vergeben und das Nutzerkonto zu aktivieren. Das Passwort kann später bei Bedarf geändert werden.
+    
+    </div>

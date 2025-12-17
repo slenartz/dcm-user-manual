@@ -9,16 +9,6 @@ Datenkurator:innen haben direkten Zugriff auf ihre Jobs, während Administrator:
 Unabhängig von Ihrer Rolle ist der grundlegende Aufbau der Oberfläche identisch:
 Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptbereichen. Rechts oben befindet sich das Profilmenü, über das die Funktionen zum Ändern des Passworts sowie der Logout erreichbar sind.
 
-!!! tip "Aktivieren des DCM Nutzerkontos"
-    <div class="grid cards" markdown>
-
-    - ![](assets/images/screenshots/basics/account-activation.png){ .image-frame }
-
-    Sie erhalten einen personifizierten Link zur Aktivierung Ihres DCM Nutzerkontos. Bei Aufruf des Links werden Sie dazu aufgefordert, Ihr persönliches Passwort zu vergeben und Ihr Nutzerkonto zu aktivieren. Das Passwort kann später von Ihnen geändert werden.
-    
-    </div>
-
-
 ## Zentrale Elemente der Oberfläche
 
 <div class="grid cards" markdown>
