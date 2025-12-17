@@ -17,7 +17,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](assets/images/screenshots/basics/login.png){ .image-frame }
+    ![Beim Aufruf der DCM URL melden Sie sich zunächst mit Ihrem persönlichen Account durch Eingabe von Nutzername und Passwort an.](assets/images/screenshots/basics/login.png){ .image-frame }
 
     Beim Aufruf der DCM URL melden Sie sich zunächst mit Ihrem persönlichen Account durch Eingabe von Nutzername und Passwort an.
 
@@ -25,7 +25,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](assets/images/screenshots/basics/home-curator.png){ .image-frame }
+    ![Nach dem Login gelangen Sie als Datenkurator:in auf die Startseite. Über die Naviagtionsleiste oben haben Sie Zugriff "Übersicht“ und „Jobs“.](assets/images/screenshots/basics/home-curator.png){ .image-frame }
 
     Nach dem Login gelangen Sie als Datenkurator:in auf die Startseite. Über die Naviagtionsleiste oben haben Sie Zugriff "Übersicht“ und „Jobs“.
 
@@ -33,7 +33,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](assets/images/screenshots/basics/avatar.png){ .image-frame }
+    ![Bei Klick auf das Avatar-Symbol können Sie Ihr Passwort ändern oder sich vom DCM abmelden. Beim nächsten Besuch der URL werden Sie erneut zum Login aufgefordert.](assets/images/screenshots/basics/avatar.png){ .image-frame }
 
     Bei Klick auf das Avatar-Symbol können Sie Ihr Passwort ändern oder sich vom DCM abmelden. Beim nächsten Besuch der URL werden Sie erneut zum Login aufgefordert.
 
@@ -41,7 +41,7 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     ---
 
-    ![](assets/images/screenshots/basics/uebersicht.png){ .image-frame }
+    ![Hier entsteht zukünftig ein Dashboard, das Widgets wie Job-Status oder Benachrichtigungen anzeigen wird. Bis zur Umsetzung bleibt die Seite leer.](assets/images/screenshots/basics/uebersicht.png){ .image-frame }
 
     Hier entsteht zukünftig ein Dashboard, das Widgets wie Job-Status oder Benachrichtigungen anzeigen wird. Bis zur Umsetzung bleibt die Seite leer.
 
