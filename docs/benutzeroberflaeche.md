@@ -29,14 +29,6 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
 
     Nach dem Login gelangen Sie auf die Startseite. Als Datenkurator:in haben Sie über die Naviagtionsleiste oben Zugriff *Übersicht* und *Jobs*.
 
--   **Avatar-Menü**
-
-    ---
-
-    ![Bei Klick auf das Avatar-Symbol können Sie Ihr Passwort ändern oder sich vom DCM abmelden. Beim nächsten Besuch der URL werden Sie erneut zum Login aufgefordert.](assets/images/screenshots/basics/avatar.png){ .image-frame }
-
-    Bei Klick auf das Avatar-Symbol können Sie Ihr Passwort ändern oder sich vom DCM abmelden. Beim nächsten Besuch der URL werden Sie erneut zum Login aufgefordert.
-
 -   **Übersicht**
 
     ---
@@ -44,5 +36,13 @@ Eine Navigationsleiste ermöglicht den schnellen Wechsel zwischen den Hauptberei
     ![Hier entsteht zukünftig ein Dashboard, das Widgets wie Job-Status oder Benachrichtigungen anzeigen wird. Bis zur Umsetzung bleibt die Seite leer.](assets/images/screenshots/basics/uebersicht.png){ .image-frame }
 
     Hier entsteht zukünftig ein Dashboard, das Widgets wie Job-Status oder Benachrichtigungen anzeigen wird. Bis zur Umsetzung bleibt die Seite leer.
+
+-   **Avatar-Menü**
+
+    ---
+
+    ![Bei Klick auf das Avatar-Symbol können Sie Ihr Passwort ändern oder sich vom DCM abmelden. Beim nächsten Besuch der URL werden Sie erneut zum Login aufgefordert.](assets/images/screenshots/basics/avatar.png){ .image-frame }
+
+    Bei Klick auf das Avatar-Symbol können Sie Ihr Passwort ändern oder sich vom DCM abmelden. Beim nächsten Besuch der URL werden Sie erneut zum Login aufgefordert.
 
 </div>
