@@ -4,7 +4,7 @@ Die Anwendungsverwaltung umfasst alle administrativen Funktionen des DCM. Admini
 
 ## Nutzer & Rollen verwalten
 
-In der Nutzerverwaltung legen Administrator:innen neue Benutzerkonten an, passen Rollen an und steuern den Zugang zu Arbeitsbereichen. Damit wird festgelegt, wer welche Jobs anlegen und verwalten kann.
+In der Nutzerverwaltung erstellen Sie als Administrator:in neue Benutzerkonten, passen Rollen an und steuern den Zugang zu Arbeitsbereichen. Auf diese Weise bestimmen Sie, wer welche Jobs anlegen und verwalten kann.
 
 ### Nutzer anlegen
 
@@ -125,9 +125,9 @@ Templates können einem Arbeitsbereich auf der jeweiligen Karte direkt zugewiese
 
     ---
 
-    ![Über das Mülleimer-Symbol <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg> lässt sich die Zuweisung von Templates zu Arbeitsbereichen aufheben.](assets/images/screenshots/admin/arbeitsbereiche/arbeitsbereich-template-entfernen.png){ .image-frame }
+    ![Über das Löschen-Symbol <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg> lässt sich die Zuweisung von Templates zu Arbeitsbereichen aufheben.](assets/images/screenshots/admin/arbeitsbereiche/arbeitsbereich-template-entfernen.png){ .image-frame }
 
-    Über das *Mülleimer-Symbol* <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg> lässt sich die Zuweisung von Templates zu Arbeitsbereichen aufheben.
+    Über das *Löschen-Symbol* <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg> lässt sich die Zuweisung von Templates zu Arbeitsbereichen aufheben.
 
 </div>
 
@@ -203,7 +203,7 @@ Der DCM unterscheidet zwei Template-Typen:
 
     Durch Klick auf die Schaltfläche *Template erstellen* oben rechts legen Sie ein neues Template an.
 
--   **Beschreibung**
+-   **Template beschreiben**
 
     ---
 
@@ -273,17 +273,17 @@ Die Funktionen zur Bearbeitung der Templates stehen Ihnen auf jeder Template-Kar
 
     Auf jeder Template-Karte stehen Ihnen die Aktionen *Bearbeiten* und *Löschen* zur Verfügung:<br>
 
-    ![](assets/images/icons/bearbeiten.png){ .no-glightbox width="14px" } Template bearbeiten.
+    ![](assets/images/icons/bearbeiten.png){ .no-glightbox width="14px" } Template bearbeiten
     
-    ![](assets/images/icons/loeschen.png){ .no-glightbox width="14px" } Template löschen.
+    ![](assets/images/icons/loeschen.png){ .no-glightbox width="14px" } Template löschen
 
 -   **Template bearbeiten**
 
     ---
 
-    ![Beim Bearbeiten sind zwei Einstellungen durch ein Schloss-Symbol <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> gekennzeichnet und können nicht verändert werden: Verbindungsart und Zielsystem.](assets/images/screenshots/admin/templates/template-bearbeiten.png){ .image-frame }
+    ![Beim Bearbeiten sind zwei Einstellungen durch ein Gesperrt-Symbol <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> gekennzeichnet und können nicht verändert werden: Verbindungsart und Zielsystem.](assets/images/screenshots/admin/templates/template-bearbeiten.png){ .image-frame }
 
-    Beim Bearbeiten sind zwei Einstellungen durch ein Schloss-Symbol <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> gekennzeichnet und können nicht verändert werden: *Verbindungsart* und *Zielsystem*.
+    Beim Bearbeiten sind zwei Einstellungen durch ein Gesperrt-Symbol <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg> gekennzeichnet und können nicht verändert werden: *Verbindungsart* und *Zielsystem*.
 
 </div>
 
