@@ -1,4 +1,4 @@
-# Benutzung und Benutzeroberfläche
+# Benutzeroberfläche
 
 Die Benutzeroberfläche des Digital Curation Managers (DCM) ist bewusst klar und übersichtlich gestaltet. Sie bietet sowohl Datenkurator:innen als auch Administrator:innen einen leicht zugänglichen Zugang zu allen wichtigen Funktionen.
 
