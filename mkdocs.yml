@@ -30,10 +30,9 @@ extra_css:
 
 nav:
   - Startseite: index.md
-  - Einleitung: einleitung.md
   - Grundlagen: grundlagen.md
   - Benutzeroberfläche: benutzeroberflaeche.md
-  - Anwendungsverwaltung: anwendungsverwaltung.md
+  - Anwendung administieren: anwendung-administrieren.md
   - Jobs konfigurieren: jobs-konfigurieren.md
   - Jobs managen und überwachen: jobs-managen-und-ueberwachen.md
   - Glossar: glossar.md

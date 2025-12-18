@@ -1,18 +1,24 @@
 # Jobs managen und überwachen
 
-Die Tabelle auf der Seite *Jobs* zeigt eine Übersicht aller angelegten Jobs in den Arbeitsbereichen, auf die Sie Zugriff haben. Sie enthält grundlegende Informationen wie den aktuellen Status oder den nächsten geplanten Lauf (falls vorhanden). Darüber hinaus können hier – abhängig vom jeweiligen Jobstatus – verschiedene Interaktionen direkt ausgeführt werden. Zudem können über Filter und eine Suchfunktion gezielt bestimmte Jobs ein- oder ausgeblendet werden.
+In diesem Kapitel erfahren Sie, wie Sie bestehende Jobs im laufenden Betrieb überwachen, steuern und bei Fehlern gezielt die weitere Verarbeitung von Intellectual Entities beeinflussen können.
 
-## Jobs in der Übersicht verwalten
+## Job-Übersicht nutzen
+
+Die Tabelle auf der Seite *Jobs* zeigt eine Übersicht aller angelegten Jobs in den Arbeitsbereichen, auf die Sie Zugriff haben. Sie enthält grundlegende Informationen wie den aktuellen Status oder den nächsten geplanten Lauf (falls vorhanden). 
+
+Über Filter und eine Suchfunktion können gezielt bestimmte Jobs ein- oder ausgeblendet werden.
+
+Darüber hinaus stehen verschiedene Steuerelemente zur Verfügung, mit denen sich Jobs direkt verwalten lassen. 
 
 <div class="grid cards" markdown>
 
-- ![In der Job-Übersicht stehen Ihnen je nach Jobstatus verschiedene Aktionen zur Verfügung.](assets/images/screenshots/curator/job-managen/job-aktionen.png){ .image-frame }
+- ![Steuerelemente in der Job-Übersicht auf der Seite "Jobs".](assets/images/screenshots/curator/job-managen/job-aktionen.png){ .image-frame }
 
-In der Job-Übersicht stehen Ihnen je nach Jobstatus verschiedene Aktionen zur Verfügung.
+Steuerelemente in der Job-Übersicht auf der Seite *Jobs*.
 
 </div>
 
-### Jobinteraktionen in der Übersicht
+### Jobs in der Übersicht verwalten
 
 ![](assets/images/icons/schalter-aus.png){ .no-glightbox width="14px" } | ![](assets/images/icons/schalter-an.png){ .no-glightbox width="14px" } **Zeitplan aktivieren oder pausieren**  
 Über den Schalter kann der Zeitplan eines Jobs jederzeit pausiert oder wieder aktiviert werden. Beim Deaktivieren werden keine automatisierten Ausführungen mehr gestartet; manuelle Starts bleiben weiterhin möglich. Die Option steht nur bei Jobs mit *Zeitplan* zur Verfügung.
@@ -34,13 +40,17 @@ Führt den Job manuell aus, unabhängig davon, ob ein Zeitplan definiert ist. Di
 : **Job löschen**  
   Entfernt den Job dauerhaft. *Achtung*: Dadurch geht die vollständige Ausführungs- und Verarbeitungshistorie des Jobs unwiderruflich verloren.
 
-## Job-Details und Historie einsehen
+## Job Details einsehen
+
+Über die Job Details erhalten Sie einen vertieften Einblick in die Ausführungshistorie eines Jobs sowie in die Verarbeitung der zugehörigen Intellectual Entities. 
+Hier lassen sich vergangene Job-Läufe nachvollziehen, der Status einzelner Intellectual Entities prüfen und bei Bedarf detaillierte Reports und Verarbeitungsartefakte abrufen. 
+Auch der Umgang mit Fehlern bei der [Objektvalidierung](glossar.md#objektvalidierung) erfolgt in dieser Ansicht.
 
 <div class="grid cards" markdown>
 
-- ![Die Job-Details zeigen alle bisherigen Ausführungen eines Jobs sowie den Status der jeweils verarbeiteten Intellectual Entities (IEs). Im Kopfbereich finden Sie den Gesamtstatus des Jobs und weitere allgemeine Informationen.](assets/images/screenshots/curator/job-managen/job-details-kopf.png){ .image-frame }
+- ![Die Job Details zeigen alle bisherigen Ausführungen eines Jobs sowie den Status der jeweils verarbeiteten Intellectual Entities (IEs). Im Kopfbereich finden Sie den Gesamtstatus des Jobs und weitere allgemeine Informationen.](assets/images/screenshots/curator/job-managen/job-details-kopf.png){ .image-frame }
 
-    Die Job-Details zeigen alle bisherigen Ausführungen eines Jobs sowie den Status der jeweils verarbeiteten Intellectual Entities (IEs). Im Kopfbereich finden Sie den Gesamtstatus des Jobs und weitere allgemeine Informationen. 
+    Die Job Details zeigen alle bisherigen Ausführungen eines Jobs sowie den Status der jeweils verarbeiteten Intellectual Entities (IEs). Im Kopfbereich finden Sie den Gesamtstatus des Jobs und weitere allgemeine Informationen. 
 
 
 - ![Die darunterliegende Tabelle listet alle IEs der gesamten Job-Historie mit ihren Statuswerten, Validierungsergebnissen und Zeitstempeln. Über Filter und die Suchfunktion können Sie gezielt nach bestimmten IEs oder nach IEs mit Fehlern suchen.](assets/images/screenshots/curator/job-managen/job-details-tabelle.png){ .image-frame }

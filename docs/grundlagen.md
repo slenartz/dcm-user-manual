@@ -1,5 +1,15 @@
 # Grundlagen
 
+Der Digital Curation Manager (DCM) ist eine webbasierte Anwendung, mit der Datenkurator:innen digitale Objekte aus Quellsystemen auswählen, aufbereiten und in ein Langzeitarchivsystem[^1] überführen können.
+
+Die Anwendung fungiert im Kern als Submission-Application und verknüpft mehrere Teilprozesse zu einem automatisierten Verarbeitungsworkflow. Dabei unterstützt der DCM sowohl Datenabfragen über Schnittstellen und automatische Dateidownloads als auch die Verarbeitung extern kuratierter und bereitgestellter Information Packages.
+
+![](assets/images/diagrams/dcm-process.png)
+
+Der DCM schafft transparente und konsistente Abläufe. Die integrierte Weboberfläche führt alle Konfigurations- und Statusinformationen zentral zusammen und erleichtert die Orientierung im gesamten Workflow.
+
+[^1]: Derzeit wird ExLibris Rosetta unterstüzt; weitere Systeme sind geplant.
+
 ## Arbeitsbereiche, Templates und Jobs
 
 Der DCM strukturiert die Arbeitsabläufe in drei zentrale Bausteine.
@@ -51,3 +61,14 @@ Unabhängig davon, ob ein Information Package intern oder extern erzeugt wurde, 
 Ob der DCM ein Information Package selbst erzeugt oder ein extern erstelltes IP übernimmt, wird in der jeweiligen Template-Konfiguration festgelegt. OAI-PMH-Jobs importieren zunächst nur Daten und Metadaten und erzeugen daraus automatisch ein IP. Hotfolder-Jobs dagegen verarbeiten gelieferte IPs, die von externen Systemen bereitgestellt werden.
 
 Für Datenkurator:innen unterscheiden sich beide Jobtypen nur in wenigen Details – die zentralen Konfigurationsschritte und der praktische Umgang mit den Jobs sind gleich.
+
+## DCM Nutzerkonto
+
+!!! tip "Aktivierung des DCM Nutzerkontos"
+    <div class="grid cards" markdown>
+
+    - ![](assets/images/screenshots/basics/account-aktivierung.png){ .image-frame }
+
+    Datenkurator:innen erhalten einen personifizierten Link zur Aktivierung ihres DCM Nutzerkontos. Bei Aufruf des Links werden sie dazu aufgefordert, ein persönliches Passwort zu vergeben und das Nutzerkonto zu aktivieren. Das Passwort kann später bei Bedarf geändert werden.
+    
+    </div>
